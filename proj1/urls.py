@@ -7,6 +7,6 @@ urlpatterns = patterns('',
     # Examples:
     # url(r'^$', 'proj1.views.home', name='home'),
     # url(r'^blog/', include('blog.urls')),
-
+    url(r'^polls/', include('pollsapp.urls', namespace='polls')),
     url(r'^admin/', include(admin.site.urls)),
 )
