@@ -13,5 +13,4 @@ def deploy():
         # With both
         local('python manage.py migrate pollsapp')
         local('python manage.py test pollsapp')
-        local('python manage.py runserver')
 
