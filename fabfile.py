@@ -5,6 +5,7 @@ def prepare_deployment():
     local('git add -p && git commit') # or local('hg add && hg commit')
 
 def deploy():
+
     with lcd('/Users/7stud/django_projects/proj1/'):
 
         # With git...
