@@ -11,7 +11,7 @@ def deploy():
         local('git pull /Users/7stud/dev_django_projects/proj1/')
 
         # With both
-        local('python manage.py migrate myapp')
-        local('python manage.py test myapp')
+        local('python manage.py migrate pollsapp')
+        local('python manage.py test pollsapp')
         local('python manage.py runserver')
 
